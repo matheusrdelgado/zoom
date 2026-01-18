@@ -164,24 +164,50 @@ const App: React.FC = () => {
           </div>
         )}
 
-        {/* === ABA: SOBRE === */}
+          {/* === ABA: SOBRE === */}
         {currentPage === 'sobre' && (
           <div className="container mx-auto px-6 py-12 animate-fade-in-up">
             <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
               <div>
-                <h2 className="text-4xl md:text-5xl font-black text-white mb-8 italic uppercase">História <span className="text-red-600">Zoom</span></h2>
-                <div className="space-y-6 text-neutral-400 text-justify leading-relaxed text-sm">
-                  <p>
-                    Fundada em 2013 por António Silva, a Zoom Motorsport® iniciou o seu percurso como uma agência dedicada exclusivamente à fotografia. Contudo, a evolução do mercado e a escuta ativa das necessidades dos nossos clientes ditaram um crescimento natural e estratégico. Hoje, somos uma agência multidisciplinar, oferecendo soluções integradas que abrangem design, comunicação, produção de vídeo e gestão de redes sociais.
+                <h2 className="text-4xl md:text-5xl font-black text-white mb-8 italic uppercase">ZOOM MOTORSPORT®</h2>
+                <div className="space-y-10 text-neutral-400 leading-relaxed text-sm">
+          <p className="text-justify">
+            Fundada em 2013, a Zoom Motorsport® nasceu da paixão pelas pistas e da necessidade de transformar a velocidade em arte visual. Sediada no Porto, somos hoje uma agência fotográfica e de comunicação líder, focada exclusivamente no setor automobilístico.
+          </p>
 
-A nossa competência é validada pela colaboração estreita com as entidades máximas do desporto automóvel, como a FIA e a FPAK. O nosso portfólio reflete a confiança de grandes marcas e organizações, incluindo a Toyota Portugal, Toyota Europa, QF-LDA, CPM, CAMI e o JCGroup.
+          <section>
+            <h3 className="text-white text-lg font-bold uppercase tracking-widest mb-3 flex items-center">
+              <span className="w-8 h-[2px] bg-red-600 mr-3"></span>
+              A Nossa Missão
+            </h3>
+            <p className="text-justify border-l-2 border-neutral-800 pl-4">
+              Elevar o padrão da comunicação visual no desporto motorizado. Acreditamos que cada curva e cada vitória merecem ser imortalizadas com rigor técnico. Não apenas captamos momentos; construímos o legado visual de quem confia no nosso olhar.
+            </p>
+          </section>
 
-No terreno, trabalhamos lado a lado com a elite do rali nacional, apoiando nomes como Armindo Araújo, Ricardo Teodósio e Pedro Almeida Rally, sem esquecer o apoio às novas gerações, como a jovem promessa do Rally Cross, Rafaela Barbosa.
+          <section>
+            <h3 className="text-white text-lg font-bold uppercase tracking-widest mb-3 flex items-center">
+              <span className="w-8 h-[2px] bg-red-600 mr-3"></span>
+              O Olhar de Quem Conhece a Pista
+            </h3>
+            <p className="text-justify border-l-2 border-neutral-800 pl-4">
+              Presentes nos principais circuitos nacionais e internacionais, utilizamos tecnologia de ponta para entregar conteúdos que potencializam a visibilidade de pilotos e equipas perante patrocinadores e fortalecem a identidade de marcas do setor.
+            </p>
+          </section>
 
-A nossa presença mediática é assegurada através de parcerias sólidas com os principais órgãos de comunicação social, tanto da especialidade — Autosport e SportMotores — como generalistas, incluindo O Jogo, JN e Record.
-                  </p>
-                </div>
-              </div>
+          <section>
+            <h3 className="text-white text-lg font-bold uppercase tracking-widest mb-3 flex items-center">
+              <span className="w-8 h-[2px] bg-red-600 mr-3"></span>
+              Comunicação 360º
+            </h3>
+            <div className="grid grid-cols-1 gap-2 border-l-2 border-neutral-800 pl-4 italic">
+              <span>• Gestão de Imagem Estratégica</span>
+              <span>• Assessoria de Imprensa Especializada</span>
+              <span>• Digital & Social Media Performance</span>
+            </div>
+          </section>
+        </div>
+      </div>
               <div className="relative">
                 <div className="absolute inset-0 border-2 border-red-600 translate-x-4 translate-y-4 -z-10"></div>
                 <img src="/images/ZM_TGRCP_AIA_CPV_203.jpg" alt="Equipa Zoom" className="w-full h-auto object-cover grayscale hover:grayscale-0 transition-all duration-500 shadow-2xl" />
