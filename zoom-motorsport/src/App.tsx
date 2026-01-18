@@ -170,7 +170,7 @@ const App: React.FC = () => {
             <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
               <div>
                 <h2 className="text-lg font-bold text-white mb-10 uppercase tracking-widest flex items-center">
-                  <span className="w-8 h-[2px] bg-red-600 mr-3"></span>
+                  <span className="w-8 h-[2px]"></span>
                   ZOOM MOTORSPORT®
                 </h2>
 
