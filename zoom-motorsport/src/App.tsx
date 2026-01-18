@@ -169,7 +169,8 @@ const App: React.FC = () => {
           <div className="container mx-auto px-6 py-12 animate-fade-in-up">
             <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
               <div>
-                <h2 className="w-8 h-[2px] bg-red-600 mr-3">ZOOM MOTORSPORT®</h2>
+                <h2 className="w-8 h-[2px]">ZOOM MOTORSPORT®</h2>
+
                 <div className="space-y-10 text-neutral-400 leading-relaxed text-sm">
           <p className="text-justify">
             Fundada em 2013, a Zoom Motorsport® nasceu da paixão pelas pistas e da necessidade de transformar a velocidade em arte visual. Sediada no Porto, somos hoje uma agência fotográfica e de comunicação líder, focada exclusivamente no setor automobilístico.
