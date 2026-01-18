@@ -40,7 +40,7 @@ const App: React.FC = () => {
     { id: 4, category: 'Detalhe', title: 'Engenharia', image: '/images/engenharia.jpg' },
     { id: 5, category: 'Pódio', title: 'A Vitória', image: '/images/podio.jpg' },
     { id: 6, category: 'Clássicos', title: 'Lendas', image: '/images/classico.jpg' },
-    { id: 7, category: 'Ralis', title: 'Retrato', image: 'ZOM_7931.jpg' },
+    { id: 7, category: 'Ralis', title: 'Retrato', image: '/images/ZOM_7931.jpg' },
   ];
 
   const services: ServiceItem[] = [
