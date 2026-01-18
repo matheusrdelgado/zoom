@@ -34,13 +34,13 @@ const App: React.FC = () => {
 
   // --- DADOS ---
   const portfolioItems: PortfolioItem[] = [
-    { id: 1, category: 'CPR', title: 'O Salto', image: '/images/Site54.png' },
-    { id: 2, category: 'Velocidade', title: 'Grelha', image: '/images/ZM_TGRCP_AIA_CPV_203.jpg' },
-    { id: 3, category: 'Bastidores', title: 'Pit Lane', image: '/images/pitstop.jpg' },
-    { id: 4, category: 'Detalhe', title: 'Engenharia', image: '/images/engenharia.jpg' },
-    { id: 5, category: 'Pódio', title: 'A Vitória', image: '/images/podio.jpg' },
-    { id: 6, category: 'Clássicos', title: 'Lendas', image: '/images/classico.jpg' },
-    { id: 7, category: 'Ralis', title: 'Retrato', image: '/images/ZOM_7931.jpg' },
+    { id: 1, category: '', title: 'O Salto', image: '/images/Site54.png' },
+    { id: 2, category: '', title: 'Grelha', image: '/images/ZM_TGRCP_AIA_CPV_203.jpg' },
+    { id: 3, category: '', title: 'Pit Lane', image: '/images/pitstop.jpg' },
+    { id: 4, category: '', title: 'Engenharia', image: '/images/engenharia.jpg' },
+    { id: 5, category: '', title: 'A Vitória', image: '/images/podio.jpg' },
+    { id: 6, category: '', title: 'Lendas', image: '/images/classico.jpg' },
+    { id: 7, category: '', title: 'Foco', image: '/images/ZOM_7931.jpg' },
   ];
 
   const services: ServiceItem[] = [
